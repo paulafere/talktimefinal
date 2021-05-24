@@ -1,0 +1,134 @@
+<!--index-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo de pestaña-->
+    <title>
+        
+        Let´s enroll!
+
+    </title>
+    <!--icono de pestaña-->
+    <link rel="shortcut icon" href="../media/pencil.ico" type="image/x-icon" />
+
+    <!--script de iconos utilizados-->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--my CSS-->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body   >
+    <header  >
+        <div class="header--grid header--skew container-fluid" >
+            <div class="header--icono container-fluid"><span class="iconify" data-width="48px" data-height="48px" data-icon="bi:bookmark-fill" data-inline="false"></span></div>
+            
+            <div class="header--titulo container-fluid">  <a href="../index.html">   <h1>Talktime La Plata</h1></a></div>
+        
+        </div >
+        <nav class="container" >
+            <div class="row">
+                <div class="container-fluid col-8">
+                    <div class="header__nav--hamb"> <!--menu hamburguesa-->
+                                <ul>
+                                    <li>
+                                        <a href=""><span class="iconify " data-icon="cil:hamburger-menu" data-inline="false"></span></a>
+                                        <ul>
+                                            <li> 
+                                                <a href="../index.html"; >Home</a></li>
+                                            </li>
+                                        <li >
+                                            <a href="aboutus2.html";>About us</a></li>
+                                        </li>
+                                        <li >
+                                            <a href="courses2.html"; >Courses</a></li>
+                                        </li>
+                                    </li>
+                                </ul>
+                            </ul>
+                    </div>
+                </div>
+                <div class=" header__nav container-fluid col-4 row ">
+                    <div class=" header__nav--link  col "> 
+                        <a href="../index.html"; >Home</a></li>
+                    </div>
+                    <div  class="header__nav--link col   ">
+                        <a href="aboutus2.html";>About us</a></li>
+                    </div>
+                    <div  class="header__nav--link col ">
+                        <a href="courses2.html"; >Courses</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main   class="enrolmain">
+        
+        <h2><span class="iconify" data-icon="bi:pen" data-inline="false"></span>Time to Enrol!</h2>
+        
+            <div class="enrolmain__form container-fluid">
+            
+                <form  method="GET">
+                    <fieldset> <legend> <b>Personal information</b> </legend>
+                        <label for="name">Name:</label>	
+                        <input type="text" name="name" id="name" required/> 
+                        <label for="lname">Last name:</label>	
+                        <input type="text" name="lname" id="lname" required/> 
+
+                        <label for="level">Level of English:</label>
+                        <select name="level" id="level" required>
+                            <option value="null" disabled selected>Choose your level of English</option>
+                            <option value="int">Intermediate</option>
+                            <option value="upint">Upper-intermediate</option>
+                            <option value="adv">Advanced</option>
+                        </select>
+                        <p>Payment</p>
+                        <label >
+                            Credit card  <input type="radio"  name="pago" id="credit" required>
+                        </label> 
+                        <label >
+                            Cash  <input type="radio" name="pago" id="cash" required> 
+                        </label>
+                        <div class="enrolmain__boton container-fluid">
+                            <input type="reset" value="Reset"/>
+                            <input type="submit" value="Send "/>
+                        </div>   
+                    </fieldset>
+                </form>
+            </div>
+            <div class="enrolmain__instructions container-fluid">
+                <fieldset> <legend>Instructions</legend>
+                    <ol>
+                        <li>Fill in the form</li>
+                        <li>You will receive a confirmation E mail</li>
+                        <li>You will be able to access the virtual platform</li>
+                    </ol>
+                </fieldset>
+            </div>
+
+                    
+
+    </main>
+    <footer class="row">
+        <div class="footer__redes container-fluid col">
+            <h3>Follow us!</h3>
+            <a href="https://es-la.facebook.com/talktimelp/"><span class="iconify" data-width="28px" data-height="28px" data-icon="ant-design:facebook-filled" data-inline="false"></span></a>
+            <a href="#"><span class="iconify" data-width="28px" data-height="28px"data-icon="akar-icons:instagram-fill" data-inline="false"></span></a>
+            <a href="#"><span class="iconify" data-width="28px" data-height="28px"data-icon="foundation:social-youtube" data-inline="false"></span></a>
+        </div>
+        <div class="container-fluid col">
+            <form >
+                <label for="newsletter">Sign up to our newsletter!</label>
+                <input type="email" id="newsletter" value="@gmail.com"/>
+                <input type="submit"  value="Submit"/>
+            
+            </form>
+        </div>
+    </footer>
+
+</body>
+</html>

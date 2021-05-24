@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: inherit; }
+
+body {
+  font-family: "Noto Sans SC", sans-serif;
+  background-color: #1e0474;
+  margin: 0px;
+  padding: 0px;
+  width: 100%; }
+
+h1 {
+  font-size: 10 em; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+header {
+  background-color: #1e0474;
+  opacity: 80%;
+  color: #63e4eb;
+  padding-left: 50px;
+  padding-right: 0px;
+  padding-top: 30px;
+  margin: 0;
+  width: auto; }
+
+nav {
+  color: #63e4eb;
+  padding: 20px;
+  text-align: right; }
+
+article {
+  padding: 30px;
+  text-align: center; }
+
+table {
+  font-family: "Comfortaa", cursive;
+  border-collapse: collapse;
+  width: 100%; }
+
+td, th {
+  border: 1px solid #1d9b9b;
+  text-align: left;
+  padding: 8px; }
+
+tr:nth-child(even) {
+  background-color: #63e4eb; }
+
+footer {
+  text-align: center; }
+
+footer {
+  background-color: #1d9b9b;
+  color: #1e0474;
+  color: #1e0474; }
+
+b:hover {
+  color: white;
+  transform: scale(1.5); }
+
+b {
+  transition: 2s; }
+
+form {
+  padding: 30px;
+  background-color: #1d9b9b;
+  opacity: 70%;
+  text-decoration: solid; }
+
+button:hover {
+  transform: scale(1.5);
+  opacity: 50%; }
+
+h2 {
+  text-align: center; }
+
+h1 {
+  color: #63e4eb; }
+
+img:hover {
+  transform: scale(1.1);
+  outline: solid 7px var(--color-bg);
+  border-radius: 8px; }
+
+img {
+  transition: 2s; }
+
+button {
+  background-color: #1e0474;
+  color: #63e4eb;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #1d9b9b;
+  font-size: 20px; }
+
+.header--grad {
+  background-image: linear-gradient(to bottom, #1e0474, #1d9b9b); }
+
+.header--grid {
+  display: grid;
+  grid-template-areas: 'icono titulo';
+  grid-template-columns: 50px 300px auto;
+  grid-column-gap: 30px;
+  justify-items: center; }
+
+.header--skew {
+  transform: skew(25deg);
+  transition: 3s; }
+
+.header--icono {
+  grid-area: icono;
+  margin: 20px;
+  margin-left: 30px; }
+
+.header--titulo {
+  grid-area: titulo;
+  margin: 20px; }
+
+.header--grad {
+  background-image: linear-gradient(to bottom, #1e0474, #1d9b9b); }
+
+.header--grid {
+  display: grid;
+  grid-template-areas: 'icono titulo';
+  grid-template-columns: 50px 300px auto;
+  grid-column-gap: 30px;
+  justify-items: center; }
+
+.header--skew {
+  transform: skew(25deg);
+  transition: 3s; }
+
+.header--icono {
+  grid-area: icono;
+  margin: 20px;
+  margin-left: 30px; }
+
+.header--titulo {
+  grid-area: titulo;
+  margin: 20px; }
+
+.header__nav--link:hover {
+  text-decoration: underline;
+  text-transform: uppercase; }
+
+.header__nav--link {
+  padding: 0; }
+
+.header__nav--linkactivo {
+  text-decoration: underline;
+  text-transform: uppercase; }
+
+.header__nav--hamb {
+  align-self: left;
+  text-align: left;
+  align-items: left;
+  margin: auto;
+  padding: 0px;
+  display: none; }
+
+.header__nav--hamb ul li {
+  background-color: #1e0474;
+  color: #63e4eb;
+  width: 100px;
+  display: block;
+  padding: 0px;
+  margin: 0px; }
+
+.header__nav--hamb ul li ul li:hover {
+  color: #63e4eb;
+  text-decoration: underline; }
+
+.header__nav--hamb li ul {
+  display: none;
+  position: absolute;
+  min-width: 150px; }
+
+.header__nav--hamb li:hover > ul {
+  display: block; }
+
+.main {
+  width: auto; }
+
+.main__hero__staff--grad {
+  background-image: radial-gradient(#1d9b9b, #1e0474); }
+
+.main__hero {
+  background-image: url(../media/fondoindex.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px;
+  margin: 0; }
+
+.main__hero__div {
+  height: 200px;
+  padding: 30px; }
+
+.main__hero--grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto; }
+
+.mainaboutus__address__mapa br {
+  margin: 10px; }
+
+.mainaboutus__address {
+  object-position: bottom;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.opinionmain__opinion {
+  text-align: center;
+  background-color: #1d9b9b;
+  color: #1e0474;
+  padding: 40px; }
+
+.enrolmain__instructions {
+  background-color: white;
+  opacity: 70%;
+  text-decoration: solid; }
+
+.main__hero--button {
+  text-align: right;
+  align-self: right; }
+
+.main__hero__staff--titulo {
+  text-align: center;
+  color: #63e4eb;
+  padding-top: 20px; }
+
+.main__hero__staff__article {
+  background-color: #1d9b9b;
+  margin: 20px;
+  color: #1e0474;
+  border-radius: 8px; }
+
+.main__hero__staff--flex {
+  display: flex;
+  flex-direction: column; }
+
+.main__hero__staff {
+  background-color: #1e0474;
+  opacity: 90%; }
+
+.main__hero--anim {
+  animation-name: un_efecto;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite; }
+
+.main__hero__staff img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; }
+
+.enrolmain {
+  margin: 0px;
+  padding: 60px;
+  background-image: url(../media/fondoenrol.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.enrolmain
+.enrolmain h2:hover {
+  color: white;
+  transform: scale(1.5); }
+
+.enrolmain h2 {
+  transition: 2s; }
+
+.mainaboutus {
+  background-color: #63e4eb;
+  text-align: left;
+  color: #1e0474;
+  padding: 50px; }
+
+.mainaboutus section dt {
+  margin: 20px; }
+
+.mainaboutus section dd {
+  margin: 50px; }
+
+.mainaboutus address {
+  margin-left: 20px; }
+
+.mainaboutus__address__mapa {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%; }
+
+.coursesmain {
+  background-color: #63e4eb;
+  padding: 50px;
+  display: grid;
+  justify-content: center;
+  margin: 0px; }
+
+.coursesmain__table {
+  background-color: #1e0474;
+  color: #1d9b9b; }
+
+.opinionmain {
+  margin: 0;
+  padding: 40px;
+  background-color: #63e4eb;
+  opacity: 90%; }
+
+.opinionmain img {
+  border-radius: 8px;
+  width: 90%;
+  height: auto; }
+
+.opinionmain h2 {
+  text-align: left;
+  padding: 5px; }
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 700px auto auto auto auto;
+  text-align: center; }
+
+.enrolmain__boton input {
+  background-color: #1e0474;
+  color: #63e4eb; }
+
+.enrolmain__boton input:hover {
+  background-color: #63e4eb;
+  color: #1e0474;
+  text-decoration: underline; }
+
+.section img {
+  margin: 50px; }
+
+.footer__redes {
+  padding: 30px; }
+
+@keyframes un_efecto {
+  0% {
+    color: #1d9b9b; }
+  25% {
+    transform: scale(1.1); }
+  50% {
+    text-decoration: bold; }
+  75% {
+    text-decoration: underline; }
+  100% {
+    transform: rotate(5deg); } }
+
+@media only screen and (max-width: 768px) {
+  .header__nav--hamb {
+    display: block; }
+  .header__nav {
+    display: none; }
+  .header--titulo {
+    align-self: center;
+    text-align: center; }
+  .enrolmain__form {
+    text-overflow: clip;
+    overflow: scroll; } }
