@@ -6,6 +6,22 @@ Camada: DW 15645
 
 Descripción: La idea era hacer un sitio para un hipotético instituto de inglés.
 
+Tiene las 3 paginas incluidas en la navegacion (about us, home,courses)  , un botón para ver opiniones de estudiantes y otro para inscribirse.
+
+About us:
+
+Incluye un Iframe y direcciones de contacto.
+
+Enrol:
+
+Formulario de inscripción.
+
+Courses: Tabla con los cursos y examenes disponibles
+
+Home (index): Incluye una sección con los profesores y un hero con el botón de inscripción.
+
+Opiniones de estudiantes: Fotos de los estudientes y sus opiniones.
+
 Progreso:
 
 *En mi caso particular arranqué de cero porque no sabía ni HTML ni CSS.
